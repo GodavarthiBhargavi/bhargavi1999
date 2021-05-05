@@ -55,6 +55,7 @@ public class DepartmentServlet extends GenericServlet {
 		
 		
 System.out.println("Department Servlet...service()....");
+System.out.println("Department Servlet...service() is called......");
 		
 		String buttonValue = request.getParameter("submit");
 		PrintWriter pw = response.getWriter();
